@@ -1,7 +1,10 @@
 
 package tp;
 
-import aleatoire.Person;
+import java.io.IOException;
+import net.sf.json.JSONArray;
+import net.sf.json.JSONObject;
+
 
 
 /**
@@ -13,9 +16,7 @@ public class TP {
     
   
     public static void main(String[] args) {
-        Person anthony = new Person("Anthony", "Lalli", 30);
-        
-        System.out.println("Hello " + anthony.getFirstName());
+
     }
     
 }
