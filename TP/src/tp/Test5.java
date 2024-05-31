@@ -8,6 +8,6 @@ package tp;
  *
  * @author Anthony
  */
-public class Test {
+public class Test5 {
     
 }
