@@ -13,7 +13,7 @@ import java.util.List;
 public class Parser {
 
     public static void main(String[] args) throws IOException, ParseException {
-
+ 
         String myJSON = FileReader.loadFileIntoString("terrain.json", "UTF-8"); //Utilise la méthode pour lire le json.
 
         JSONObject terrainObject = JSONObject.fromObject(myJSON);
