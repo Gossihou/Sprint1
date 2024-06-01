@@ -31,7 +31,7 @@ sortie.accumulate("lotissements", lotissements);
  try { //Le bloc de code lève l'exception au cas où l'écriture serait erronée.
             FileWriter.saveStringIntoFile(filepath, sortie.toString()); //Utilise la méthode du Filewriter.
         } catch (IOException e) {
-            System.err.println("Erreur lors de l'enregistrement du fichier de sortie:" + e.getMessage());
+            System.err.println("Erreur lors de l'enregistrement du fichier de sortie: " + e.getMessage());
         }
 }
    
