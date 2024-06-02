@@ -10,8 +10,8 @@ import net.sf.json.JSONObject;
  */
 public class Terrain {
 
-    
-public terrain(int terrainType, double prixMin, double prixMax, JSONArray lotissementsArray){
+    //Constructeur object Terrain
+public Terrain(int terrainType, double prixMin, double prixMax, JSONArray lotissementsArray){
 
 this.setTerrainType(terrainType);
 this.setprixMin(prixMin);
@@ -20,9 +20,8 @@ this.setJSONARAY(lotissementsJsonArray);
 
 }
   
-    
-    
-    public static void terrain(){
+    // methode contenant les objet JSON
+    public static void ConstanteTerrain(){
     
         {
   "type_terrain": 0,
